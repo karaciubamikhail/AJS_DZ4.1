@@ -5,12 +5,12 @@ test('health check', () => {
   expect(getHealthLevel(result)).toBe('healthy');
 });
 
-test('health check', () => {
+test('health checks', () => {
   const result = { name: 'Маг', health: 40 };
   expect(getHealthLevel(result)).toBe('wounded');
 });
 
-test('health check', () => {
+test('health checkc', () => {
   const result = { name: 'Маг', health: 5 };
   expect(getHealthLevel(result)).toBe('critical');
 });
